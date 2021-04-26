@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2d445a25-9541-4be5-8239-7422de102b22" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c587d91b-fb19-4850-8d51-78553dbcab06" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>City</ID>
   <Name>City</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,51 +68,52 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="58387e45-a778-4d23-a04e-ad5352b7aa9d">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d7b5b5d1-0350-4766-845e-fe3fc9dd5f27">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="95966a11-6518-487a-b4ce-7024bba4f520">
+  <ErrorConfiguration dwd:design-time-name="6f424ce5-7916-4dda-828a-2dea753b21d1">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="bf6d4b29-a88d-4165-9089-15900e0d1f02">
+    <Attribute dwd:design-time-name="a4410bfe-85c0-4fc5-bd79-b1b71e58c25c">
       <ID>City Key</ID>
       <Name>City Key</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>116295</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5e5ba4f3-a210-41e2-83ad-9c012fa646e0">
+        <KeyColumn dwd:design-time-name="bcb7ddb5-d0d5-4ddc-9359-819af12784ed">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cfe24f7e-d5a4-408f-9d4e-4270d0fee46e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f6bbdeef-1f78-4d73-ae17-80d6d65ed23e">
             <TableID>Dimension_City</TableID>
             <ColumnID>City_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="6653a064-fdea-498a-ab6f-9af9032d9475">
+        <AttributeRelationship dwd:design-time-name="1dd18af1-84f0-42d1-a561-2c0e6d00dee7">
           <AttributeID>City</AttributeID>
           <Name>City</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="beb7a3ec-aec8-4629-85f2-a3ba6551004a">
+        <AttributeRelationship dwd:design-time-name="750119c6-42c2-4e5c-bfed-f617ccc0005c">
           <AttributeID>State Province</AttributeID>
           <Name>State Province</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="77a25165-e01e-460e-a068-05b03c231774">
+        <AttributeRelationship dwd:design-time-name="0de27d6f-f44e-44b4-96a1-47ccb7c26044">
           <AttributeID>Country</AttributeID>
           <Name>Country</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="583603a5-d45f-41df-bb26-778cdb6ebc0c">
+        <AttributeRelationship dwd:design-time-name="981235a9-bd94-4634-934d-48b70b1e3c5a">
           <AttributeID>Continent</AttributeID>
           <Name>Continent</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9ef8fa4c-21ba-403b-9ba2-e467e7932cf8">
+        <AttributeRelationship dwd:design-time-name="6ecb6fed-f972-4726-b3e1-5091cb8ac86d">
           <AttributeID>Sales Territory</AttributeID>
           <Name>Sales Territory</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5f1f4f96-666b-4c3e-b9ab-0f6a8918e532">
+        <AttributeRelationship dwd:design-time-name="60097d68-643f-4cbf-bf75-d1d528ec0651">
           <AttributeID>Latest Recorded Population</AttributeID>
           <Name>Latest Recorded Population</Name>
         </AttributeRelationship>
@@ -121,14 +122,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1c98b125-fb7f-4273-b611-8645059b2b2b">
+    <Attribute dwd:design-time-name="b67b607a-e8c4-4c34-a758-882b5dd68d88">
       <ID>City</ID>
       <Name>City</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="30c0208e-387c-40bc-b115-1da93bd8ea07">
+        <KeyColumn dwd:design-time-name="437c4142-d48a-449b-9a7d-4394c470d073">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1de6d15a-688a-48cd-9503-6bb1b66ed772">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f582b4d-ded0-4f2c-9e79-a6889d8df2f6">
             <TableID>Dimension_City</TableID>
             <ColumnID>City</ColumnID>
           </Source>
@@ -137,14 +138,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1bb02cdd-b9b2-471b-8fdd-fd02182f9aeb">
+    <Attribute dwd:design-time-name="22d382d8-f616-49ba-b563-6da4ec9126fc">
       <ID>State Province</ID>
       <Name>State Province</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ed48d775-168d-441f-9c44-d28c3fa4bb11">
+        <KeyColumn dwd:design-time-name="ee43018b-5269-4b23-865f-6efba6548882">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e631b7e6-4bef-4e1e-a55c-93a7d092ba6f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56c6ce37-87d5-46db-8349-823366b1a407">
             <TableID>Dimension_City</TableID>
             <ColumnID>State_x0020_Province</ColumnID>
           </Source>
@@ -153,14 +154,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e480f15e-3e9a-4cba-8c06-5a5c751b0f5d">
+    <Attribute dwd:design-time-name="ddea04e5-7986-42b0-9679-4a02bd8fd1af">
       <ID>Country</ID>
       <Name>Country</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="01f8cef3-0c38-49c6-8d8b-055d012565ac">
+        <KeyColumn dwd:design-time-name="44df3746-402a-4939-b9ce-c1d9bde6e5b0">
           <DataType>WChar</DataType>
           <DataSize>60</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="85698da3-6708-4540-a8bb-7085080ec789">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38ee6265-8405-4b1a-ab4c-6452ca48cef8">
             <TableID>Dimension_City</TableID>
             <ColumnID>Country</ColumnID>
           </Source>
@@ -169,14 +170,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="936c3840-5303-46aa-810f-fd126170ef06">
+    <Attribute dwd:design-time-name="2461c5d7-7a53-4238-91bc-dc6ea1e5f8f5">
       <ID>Continent</ID>
       <Name>Continent</Name>
+      <EstimatedCount>2</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="53548e49-17ca-4208-94fc-f69756a75519">
+        <KeyColumn dwd:design-time-name="56283e48-c95c-4a79-88e7-d265731827c1">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8dc7d994-c171-4cab-84eb-195984cfcdd2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42463a79-d986-4cdd-8561-e131d5a6d541">
             <TableID>Dimension_City</TableID>
             <ColumnID>Continent</ColumnID>
           </Source>
@@ -185,14 +187,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="da9be04f-a5f4-47f1-a4d0-f184d3faa048">
+    <Attribute dwd:design-time-name="89f6ee49-0ab0-4d0c-9d7d-f4216b996961">
       <ID>Sales Territory</ID>
       <Name>Sales Territory</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="863e2abf-bb2a-4a24-92cd-88a548685941">
+        <KeyColumn dwd:design-time-name="baa3e743-9724-46c9-8848-7188d8b1c851">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9053dbc-7502-4fb8-b328-725f5b8bb780">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f27cee9c-03e3-4f0e-9c71-e69bfed829b9">
             <TableID>Dimension_City</TableID>
             <ColumnID>Sales_x0020_Territory</ColumnID>
           </Source>
@@ -201,13 +203,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6c644364-458a-411e-ac0a-dc7a379930e4">
+    <Attribute dwd:design-time-name="54837f9a-0068-4e9c-92eb-bdfcfb74cca6">
       <ID>Latest Recorded Population</ID>
       <Name>Latest Recorded Population</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5a19790b-dd0c-4645-94e9-9ed16b909711">
+        <KeyColumn dwd:design-time-name="9ac74edb-2f14-4178-9d19-75e11015aa09">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="07648a69-dc88-4805-a355-99bbef06c14a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e24f711-3ac8-468f-a43a-063594b18e4b">
             <TableID>Dimension_City</TableID>
             <ColumnID>Latest_x0020_Recorded_x0020_Population</ColumnID>
           </Source>
@@ -218,31 +220,31 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="439aedd3-b83d-434b-a034-f2b32e890a17">
+    <Hierarchy dwd:design-time-name="a15c3605-535c-4376-ace7-9ff7d7c2a098">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="bce2a265-39a2-4942-936d-aa50287de8da">
+        <Level dwd:design-time-name="5371346f-32b1-4fc2-85f1-3512071ff532">
           <ID>Continent</ID>
           <Name>Continent</Name>
           <SourceAttributeID>Continent</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="17035523-8bfc-48ff-ae8d-9592b5f65f4d">
+        <Level dwd:design-time-name="c85fb83a-4b06-494f-bffb-73060ac18151">
           <ID>Country</ID>
           <Name>Country</Name>
           <SourceAttributeID>Country</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1a7bc05f-d317-4e7e-b9c5-9e48d8bee22a">
+        <Level dwd:design-time-name="ff101400-6b11-476a-9584-81f210f75075">
           <ID>Sales Territory</ID>
           <Name>Sales Territory</Name>
           <SourceAttributeID>Sales Territory</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="49db92e7-1735-4f51-a93f-569ce861a4f0">
+        <Level dwd:design-time-name="d08ecfc0-b012-4503-a9d2-f5b8a358e7a8">
           <ID>State Province</ID>
           <Name>State Province</Name>
           <SourceAttributeID>State Province</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="b0970a73-1500-4253-aa29-082fe7697c28">
+        <Level dwd:design-time-name="ddb31d4c-04b9-45fb-aad8-a7d341aff7d2">
           <ID>City</ID>
           <Name>City</Name>
           <SourceAttributeID>City</SourceAttributeID>

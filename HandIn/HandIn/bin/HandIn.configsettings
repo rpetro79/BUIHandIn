@@ -50,7 +50,7 @@
             <ID>Sale</ID>
             <Partitions>
               <Partition>
-                <ID>Sale</ID>
+                <ID>SaleBefore2014</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

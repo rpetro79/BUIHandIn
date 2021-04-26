@@ -19,7 +19,7 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>RBFboOuoYYFw5ellk+fgO6FQmrM=4/26/2021 7:11:27 PM4/26/2021 5:08:57 PM</TimeStamp>
+        <TimeStamp>BUYsvqmTnAHFqnb/FC84ABS5xCM=4/26/2021 11:17:09 PM4/26/2021 5:08:57 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Mcxvl7bcFXHbUMnQKFViWwln/GE=4/26/2021 6:22:04 PM4/26/2021 5:15:25 PM</TimeStamp>
+        <TimeStamp>Su2JXM1qNRW+V+/fdh2xc7p0GHI=4/26/2021 11:37:35 PM4/26/2021 5:15:25 PM</TimeStamp>
         <ID>
           <String>Customer</String>
         </ID>
@@ -47,7 +47,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RC1JzJXCFgRP4RK8SySrgJxMHZY=4/26/2021 5:36:25 PM4/26/2021 5:15:25 PM</TimeStamp>
+        <TimeStamp>QjNDxHLkKG2Vda0Uk3y5kNo3WCk=4/27/2021 1:11:33 AM4/26/2021 5:15:25 PM</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -68,21 +68,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>sLxmh0kI7oYtZ9bWF8zACzwZb9M=4/26/2021 5:48:26 PM4/26/2021 5:15:25 PM</TimeStamp>
+        <TimeStamp>g9JtISqMfm6oedOzRVvjoQHXivA=4/27/2021 1:27:46 AM4/26/2021 5:15:25 PM</TimeStamp>
         <ID>
           <String>Stock Item</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dF8FW5OR74FguqbTl4S/Ze7tuJ4=4/26/2021 5:53:51 PM4/26/2021 5:15:25 PM</TimeStamp>
+        <TimeStamp>jnpnQXH0ZPKkFNheCYugA+LE2TU=4/26/2021 9:49:28 PM4/26/2021 5:15:25 PM</TimeStamp>
         <ID>
           <String>City</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>JedMJk85ScKkxUcdyvy1oe0+eWI=4/26/2021 6:22:05 PM4/26/2021 5:15:25 PMbLpNeH+K8Hs1Rq+j1PUW+jRkuKo=4/26/2021 5:15:25 PM4/26/2021 5:15:25 PM</TimeStamp>
+        <TimeStamp>O0o6B/hDbgqR0pFNIWVtE8mocAA=4/27/2021 1:24:20 AM4/26/2021 5:15:25 PM06LMTGJW99tav3vgcIf5zy1DRaI=4/27/2021 12:49:27 AM4/26/2021 5:15:25 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-04-26T17:11:56.386667Z</LastDeployed>
+  <LastDeployed>2021-04-26T23:27:53.8Z</LastDeployed>
 </DeploymentSnapshot>
